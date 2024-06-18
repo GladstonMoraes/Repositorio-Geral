@@ -1,3 +1,9 @@
+//Operadores aritméticos são utilizados para oparações matemáticas
+// incluindo o i=operador de módulo, ou resto de da divisão/
+// o resultado de um número menor % um número maior, é sempre zero
+// qualquer número par % módulo outro número par, é sempre zero
+
+
 //valores literais
 
 console.log(7 + 3);
