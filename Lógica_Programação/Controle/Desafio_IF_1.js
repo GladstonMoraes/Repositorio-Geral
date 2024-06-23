@@ -20,6 +20,23 @@ const nota = 1
 
 }
 
-//não precesei especificar mais a expressão pois, 
+//não precesei especificar mais a expressão da linha 17 pois , 
 //caso nenhuma das situações acima sejam verdadeiras, siginifica automaticamente
 //que só restam notas inválidas   *********ATENÇÃO NESSA REGRA DO ELSE*********
+
+const nota2 = 6;
+let conceito = "";
+
+if (nota2 >= 9 && nota2 <= 10.0)
+    conceito = "A"
+else if (nota2 >= 7 && nota2 < 9)
+    conceito = "B"
+else if (nota2 >= 5 && nota2 < 7)
+    conceito = "C"
+else if (nota2 >= 4.5 && nota2 < 5)
+    conceito = "D"
+else if (nota2 >= 0 && nota2 < 4.5)
+    conceito = "F"
+else conceito = "Nota Inválida"
+
+console.log(conceito);
