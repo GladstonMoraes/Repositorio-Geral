@@ -17,3 +17,5 @@ subtracao(37, 17);
 subtracao(25, 7);
 
 // os "nomes" corretos das funções ou de variáveis são "Identificadores"
+
+//NaN significa not a number 
